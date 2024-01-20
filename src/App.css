@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.overall {
+  justify-content: space-around;
+  font-family: 'Jua', sans-serif;
+  font-weight: 700;
+  border: 4px solid black;
+  width: 55vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.firstName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  height: 15%;
+  padding: 20px;
+  border-bottom: #808080;
+}
+.firstName img {
+  height: 150px;
+  width: 150px;
+}
+.firstName span {
+  font-size: 2em;
+}
+.secondDiv {
+  font-weight: 700;
+  border: none;
+  height: 48vh;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-left: 1%;
+  margin-top: 0.8%;
+  background-color: #808080;
+}
+.Text {
+  font-weight: 700;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  border: 3px solid black;
+  padding: 1%;
+
+}
+.optionBox {
+  font-family: 'Jua', sans-serif;
+  font-size: large;
+  display: block;
+  border: 3px solid black;
+  background-color: #D9D9D9;
+  border-radius: 70px;
+  height: 50px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.optionBox:hover{
+  box-shadow: 10px 10px 10px -7px rgba(249,249,249,0.75);
+-webkit-box-shadow: 10px 10px 10px -7px rgba(249,249,249,0.75);
+-moz-box-shadow: 10px 10px 10px -7px rgba(249,249,249,0.75);
+}
+.thirdDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  right: 28%;
+  top: 45%;
+}
+
+.aboveButton2 {
+  font-size: xx-large;
+  font-weight: 700;
+  color: white;
+}
+
+.button2, .button3 {
+  margin-top: 10%;
+  font-family: 'Jua', sans-serif;
+  height: 60px;
+  width: 150px;
+  font-weight: 700;
+  color: white;
+  font-size: x-large;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.button2 {
+  background-color: #19E719;
+}
+.button3 {
+  color: black;
+  background-color: #FF0000;
+}
+.dark{
+  background-color: black;
+  color: #FFFFFF;
+}
+.btn{
+  cursor: pointer;
+  font-size: x-large;
+  font-family: 'Jua', sans-serif;
+  font-weight: 700;
+  border-radius: 70px;
+  border: 4px solid rgba(0, 174, 255, 0.979);
+ height: 60px;
+  width: 150px;
+}
+.mid{
+  border: none;
+  width: 50vw;
+  height: 50vh;
+  background-color: #9C9393;
+}
+.dark-mode {
+  background-color: #151212;
+  color: #FFFFFF;
+}
+
