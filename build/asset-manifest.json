@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc6f9ca6.css",
+    "main.js": "/static/js/main.704282b8.js",
+    "static/media/MimicQuest-logos_white.png": "/static/media/MimicQuest-logos_white.e9d88a8467b7bdac27fa.png",
+    "static/media/MimicQuest-logos_black.png": "/static/media/MimicQuest-logos_black.2818d7187b8331730d39.png",
+    "index.html": "/index.html",
+    "main.cc6f9ca6.css.map": "/static/css/main.cc6f9ca6.css.map",
+    "main.704282b8.js.map": "/static/js/main.704282b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc6f9ca6.css",
+    "static/js/main.704282b8.js"
+  ]
+}
